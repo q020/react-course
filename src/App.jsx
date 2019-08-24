@@ -36,10 +36,10 @@ export default class App extends Component {
       <div>
       
         <Xiao test = '你好'></Xiao>
-        <Xiao1 data='也别来找我了'></Xiao1>
+        {/* <Xiao1 data='也别来找我了'></Xiao1> */}
 
          <h3>-------------------------------------</h3>
-        <FunctionalComponent 
+        {/* <FunctionalComponent 
           comment='react真他妈牛逼'
           weather='sunnny'
         />
@@ -55,7 +55,7 @@ export default class App extends Component {
          <h3>-------------------------------------</h3>
         <Jsx 
           shouldDisplay={true}
-          data='hands boy'
+          data='hands boy' */}
         />
         <h3>-------------------------------------</h3>
       </div>
