@@ -6,6 +6,10 @@ import ThisDemo from './components/ThisDemo';
 import MaterialUI from './components/MaterialUI';
 import Xiao from './components/Xiao';
 import Xiao1 from './components/Xiao1';
+import Grandpa from './Grandpa';
+import Father from './Father';
+import Son from './Son';
+import Grandson from './Grandson';
 
 export default class App extends Component { 
   constructor (props){
@@ -15,7 +19,10 @@ export default class App extends Component {
       weather: "sunny",
       colour: "red" 
     }
-  }
+  };
+
+   
+const Grandpa =
 
 
   getName = () => {  // ES6  =>  arrow function
@@ -45,6 +52,7 @@ export default class App extends Component {
       <div>
       
         <Xiao xiaoStatus ={this.state}></Xiao>
+        <Grandpa grandpaStatus ={this.}/>
         
         {/* <Xiao1 data='也别来找我了'></Xiao1> */}
 

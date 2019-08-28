@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-const Grandson={props} ==>{
+const Grandson={props} =>{
+
     return(
         <div>
           <h1>{props.grandsonStatus.year}</h1>
@@ -10,4 +11,4 @@ const Grandson={props} ==>{
     )
 }
 
-export Grandson;
+export default Grandson;

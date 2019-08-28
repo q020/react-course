@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Father, { Component} from 'father'
+import Father, { Component } from './Father';
 
-class  Grandpa extends Component{
+class Grandpa extends Component{
     constructor(props) {
         super(props);
         this.state = { 
@@ -20,4 +20,6 @@ class  Grandpa extends Component{
          );
     }
 }
+
+export default Grandpa;
  

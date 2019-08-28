@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Son, { Component} from 'son'
+import Son, { Component} from './Son'
 
 class Father extends Component {
     constructor(props) {
