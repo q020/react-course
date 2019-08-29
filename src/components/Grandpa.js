@@ -1,25 +1,20 @@
-import React, { Component } from 'react';
-import Father, { Component } from './Father';
+import React from 'react';
+import Father from './Father'
 
-class Grandpa extends Component{
+class Grandpa extends React.Component{
     constructor(props) {
         super(props);
-        this.state = { 
-            wine:{
-                region: 'Italy',
-                year: '1997',
-                alchool: '23%'
-            }
-         }
+    
     }
+
     render() { 
+       
         return ( 
             <div>
-                <Father fatherStatus={this.state.wine}></Father>
+                <Father fatherStatus={this.props.grandpaStatus}/>
             </div>
          );
     }
 }
 
 export default Grandpa;
- 

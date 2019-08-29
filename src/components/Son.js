@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Grandson, { Component} from './Grandson'
+import React from 'react'
+import Grandson from './Grandson'
 
-class Son extends Component {
+class Son extends React.Component {
     constructor(props) {
         super(props);
     }

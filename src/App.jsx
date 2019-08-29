@@ -6,24 +6,24 @@ import ThisDemo from './components/ThisDemo';
 import MaterialUI from './components/MaterialUI';
 import Xiao from './components/Xiao';
 import Xiao1 from './components/Xiao1';
-import Grandpa from './Grandpa';
-import Father from './Father';
-import Son from './Son';
-import Grandson from './Grandson';
+import Grandpa from './components/Grandpa';
+import Father from './components/Father';
+import Son from './components/Son';
+import Grandson from './components/Grandson'
 
 export default class App extends Component { 
+
   constructor (props){
     super(props);
-    this.state={
-      time: "1pm",
-      weather: "sunny",
-      colour: "red" 
+    this.state = {
+      wine:{
+        region:'Italy',
+        year: '1997',
+        alchool: '23%'
+      }
     }
-  };
-
-   
-const Grandpa =
-
+  }
+ 
 
   getName = () => {  // ES6  =>  arrow function
     return <h1>welcome to react </h1>
@@ -50,13 +50,12 @@ const Grandpa =
 
     return (
       <div>
-      
-        <Xiao xiaoStatus ={this.state}></Xiao>
-        <Grandpa grandpaStatus ={this.}/>
-        
-        {/* <Xiao1 data='也别来找我了'></Xiao1> */}
+        <h3>-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-</h3>
+          {/* <Xiao xiaoStatus ={this.state}></Xiao> */}
+          
+          <Grandpa grandpaStatus ={this.state.wine}/>
 
-         <h3>-------------------------------------</h3>
+         <h3>-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-</h3>
         {/* <FunctionalComponent 
           comment='react真他妈牛逼'
           weather='sunnny'
@@ -74,11 +73,8 @@ const Grandpa =
         <Jsx 
           shouldDisplay={true}
           data='hands boy' */}
-        />
-        <h3>-------------------------------------</h3>
+        {/* <h3>-------------------------------------</h3> */}
       </div>
     );
   }
-}  {/* return中 注释  */}
-
-
+}  
