@@ -9,7 +9,7 @@ class Father extends React.Component {
     render() { 
         return ( 
             <div>
-                <Son sonStatus= {this.props.fatherStatus}/>
+                <Son sonStatus={this.props.fatherStatus}/>
             </div>
          );
     }

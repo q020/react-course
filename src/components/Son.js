@@ -8,7 +8,7 @@ class Son extends React.Component {
     render() { 
         return (  
             <div>
-                <Grandson grandsonStatus= {this.props.sonStatus}/>
+                <Grandson grandsonStatus={this.props.sonStatus}/>
             </div>
         );
     }

@@ -7,6 +7,34 @@ class Grandpa extends React.Component{
     
     }
 
+
+
+    // componentWillMount() {
+    //     console.log("Component will mount");    
+    // }
+    
+    // componentDidMount() {
+    //     console.log('Component did mount');
+    // }
+    
+    // componentWillReceiveProps(nextProps) {
+    //     console.log("Component will receive props");
+        
+    // }
+    
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log()
+    // }
+
+    // componentWillUpdate(nextProps, nextState) {
+    //     console.log(“Component will update")
+    // }
+
+    // componentDidUpdate(){
+    //     console.log(Compenent did update)
+    // }
+
+
     render() { 
        
         return ( 
@@ -16,5 +44,6 @@ class Grandpa extends React.Component{
          );
     }
 }
+
 
 export default Grandpa;
