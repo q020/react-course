@@ -5,14 +5,11 @@ import Jsx from './components/Jsx';
 import ThisDemo from './components/ThisDemo';
 import MaterialUI from './components/MaterialUI';
 import Xiao from './components/Xiao';
-<<<<<<< HEAD
 import Xiao1 from './components/Xiao1';
 import Grandpa from './components/Grandpa';
 import Father from './components/Father';
 import Son from './components/Son';
 import Grandson from './components/Grandson'
-=======
->>>>>>> 967b88f07f0942a2ec84cb026935fca69e499db8
 
 export default class App extends Component { 
 
@@ -24,17 +21,6 @@ export default class App extends Component {
         year: '1997',
         alchool: '23%'
       }
-    }
-  }
- 
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      number: 2019,
-      name: 'Frannie and Xiao',
-      date: '2019-08'
     }
   }
 
@@ -63,20 +49,10 @@ export default class App extends Component {
 
     return (
       <div>
-<<<<<<< HEAD
-        <h3>-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-</h3>
-          {/* <Xiao xiaoStatus ={this.state}></Xiao> */}
-          
-          <Grandpa grandpaStatus ={this.state.wine}/>
-
-         <h3>-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-8-</h3>
-        {/* <FunctionalComponent 
-=======
       
         <Xiao appStatus={this.state}/>
          {/* <h3>-------------------------------------</h3>
         <FunctionalComponent 
->>>>>>> 967b88f07f0942a2ec84cb026935fca69e499db8
           comment='react真他妈牛逼'
           weather='sunnny'
         />
@@ -92,14 +68,9 @@ export default class App extends Component {
          <h3>-------------------------------------</h3>
         <Jsx 
           shouldDisplay={true}
-<<<<<<< HEAD
-          data='hands boy' */}
-        {/* <h3>-------------------------------------</h3> */}
-=======
           data='hands boy'
         />
         <h3>-------------------------------------</h3> */}
->>>>>>> 967b88f07f0942a2ec84cb026935fca69e499db8
       </div>
     );
   }
