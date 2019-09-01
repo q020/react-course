@@ -49,8 +49,10 @@ export default class App extends Component {
 
     return (
       <div>
-      
-        <Xiao appStatus={this.state}/>
+        {/* <h1>****#****#****#*****#****</h1> */}
+          {/* <Grandpa grandpaStatus={this.state.wine}/> */}
+         {/* <h1>****#****#****#*****#****</h1> */}
+        {/* <Xiao appStatus={this.state}/> */}
          {/* <h3>-------------------------------------</h3>
         <FunctionalComponent 
           comment='react真他妈牛逼'
@@ -59,7 +61,7 @@ export default class App extends Component {
         <h3>-------------------------------------</h3>
         <h1>{welcome} {this.getName()} {this.time()}</h1>
         <h3>-------------------------------------</h3>
-        <LifeCycle />
+       
       
         <h3>-------------------------------------</h3> 
         <SetState />
@@ -71,6 +73,7 @@ export default class App extends Component {
           data='hands boy'
         />
         <h3>-------------------------------------</h3> */}
+         <LifeCycle />
       </div>
     );
   }
